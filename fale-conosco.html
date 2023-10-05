@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Links de CSS-->
+  <link rel="stylesheet" href="css_projeto\footer.css">
+  <link rel="stylesheet" href="css_projeto\header.css">
+  <link rel="stylesheet" href="css_projeto\fale-conosco.css">
+  <link rel="stylesheet" href="css\bootstrap.css">
+
+  <!--Titulo e Icone-->
+  <title>Crys&Make</title>
+  <link rel="icon" type="image/x-icon" href="image/Logo.png">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="cabecalho">
+    <nav class="nav">
+      <a class="nav-link col-3" href="index.html" title="Página Principal">
+        &emsp;<img id="marca" src="image\Logo.png">
+      </a>
+      
+      <div class="col-9 px-xxl-5 fw-bold">
+        <nav class="navbar navbar-light d-lg-none justify-content-end">
+          <div class="container-fluid justify-content-end">
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="d-none d-lg-block">
+          <nav class="nav justify-content-end align-items-center">
+            <a class="nav-link" href="produtos.html"> <b> Produtos </b> </a>
+    <a class="nav-link" href="cliente.html"> <b> cliente</b> </a>
+    <a class="nav-link" href="sobre-mim.html"> <b> Sobre Mim </b> </a>
+    <a class="nav-link" href="fale-conosco.html"> <b> Fale Conosco </b> </a>
+    <a class="nav-link" href="trabalhe-conosco.html"> <b>Trabalhe Conosco</b> </a>
+
+          </nav>
+        </div>
+
+        <div class="col-10">
+          <div class="collapse" id="menuMobile">
+            <nav class="nav flex-column align-items-start justify-content-start">
+              <a class="nav-link" href="produtos.html"> <b> Produtos </b> </a>
+    <a class="nav-link" href="cliente.html"> <b> cliente</b> </a>
+    <a class="nav-link" href="sobre-mim.html"> <b> Sobre Mim </b> </a>
+    <a class="nav-link" href="fale-conosco.html"> <b> Fale Conosco </b> </a>
+    <a class="nav-link" href="trabalhe-conosco.html"> <b>Trabalhe Conosco</b> </a>
+              
+            </nav>                 
+          </div>
+  </header>
+  <!-- Header -->
+
+  <!--Separador-->
+  <hr class="rounded">
+  <!--Titulo da Página-->
+  <div>
+    <h3 style="text-align: center; background-color: rgb(221, 221, 221); margin-bottom: 25px; padding: 5px;"> FALE
+      CONOSCO </h3>
+  </div>
+
+  <main class="form-row">
+    <!-- Formulario -->
+    <div class="col">
+      <form class="form-group border" action="*" method="get">
+
+        <ul>
+          <label for="">Nome Completo <span>*</span> </label>
+          <input type="text" class="form-control" name="" id="" required>
+        </ul>
+
+        <ul>
+          <label for="">Telefone <span>*</span> </label>
+          <input type="text" class="form-control" name="" id="" required>
+        </ul>
+
+        <ul>
+          <label for="">Endereço <span>*</span> </label>
+          <input type="text" class="form-control" name="" id="" required>
+        </ul>
+
+        <ul>
+          <label for=""> UF <span>*</span> </label>
+          <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+          </select>
+        </ul>
+
+        <ul>
+          <label for="">E-mail <span>*</span> </label>
+          <input type="email" class="form-control" name="" aria-describedby="emailHelpId" required>
+          <small id="emailHelpId" class="form-text text-muted">exemplo@exemplo.com</small>
+        </ul>
+
+        <ul>
+          <label for="">Área de Interesse <span>*</span> </label>
+          <input type="text" class="form-control" name="" id="" placeholder="" required>
+        </ul>
+
+        <ul>
+          <label for="">Mensagem<span>*</span> </label>
+          <textarea class="form-control" name="" id="" rows="3" required></textarea>
+        </ul>
+
+        <ul>
+          <div style="font-size:2vh;">
+            <span>*</span>
+            <input type="file" id="anexo" required>
+          </div>
+
+        </ul>
+
+        <ul style="padding: 2%;">
+          <button type="submit" class="btn btn-primary" value="Submit">Enviar</button>
+          <a type="button" class="btn btn-danger" href="index.html">Home</a>
+        </ul>
+      </form>
+
+    </div>
+    <!-- Formulario -->
+
+    <!--Separador-->
+    <hr class="rounded">
+    <!--Titulo da Página-->
+    <div>
+      <h3 style="text-align: center; background-color: rgb(221, 221, 221); padding: 5px;"> ONDE NOS ENCONTRAR </h3>
+    </div>
+
+    <!-- Maps -->
+    <div class="container " id="google-api-map">
+      <div class="embed-responsive embed-responsive-16by9">
+
+        <iframe class="embed-responsive-item" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD3E47_FliIjN8SuSQOL6E52QnmGoJqksk&q=Condomínio Reserva das Ilhas">
+        </iframe>
+
+      </div>
+    </div>
+    <!-- Maps -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+
+      <div>
+        <p>&emsp;</p>
+      </div>
+      <!-- Right -->
+      <div class="icons">
+        <a href="https://www.instagram.com/sancrisan/">
+          <img src="image\instagram.png" alt="insta-icon" style="margin-right: 25px;">
+        </a>
+        <a href="https://www.linkedin.com/in/sandra-cristina-939555277">
+          <img src="image\linkedin.png" alt="linkedin-icon">
+        </a>
+        &emsp;
+      </div>
+      <!-- Right -->
+    
+
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Links de CSS-->
+
+  <link rel="stylesheet" href="css_projeto\index.css">
+  <link rel="stylesheet" href="css_projeto\footer.css">
+  <link rel="stylesheet" href="css_projeto\header.css">
+  <link rel="stylesheet" href="css\bootstrap.css">
+
+  <!--Titulo e Icone-->
+  <link rel="icon" type="image/x-icon" href="image\Logo_Icon.png">
+  <title>Crys&Make</title>
+
+  <!--Bootstrap JS e o jQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="cabecalho">
+    <nav class="nav">
+      <a class="nav-link col-3" href="index.html" title="Página Principal">
+        &emsp;<img id="marca" src="image\Logo.png">
+
+        <div class="col-9 px-xxl-5 fw-bold">
+          <nav class="navbar navbar-light d-lg-none justify-content-end">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+
+          <div class="d-none d-lg-block">
+            <nav class="nav justify-content-end align-items-center">
+              <a class="nav-link" href="produtos.html"> <b> Produtos </b> </a>
+      <a class="nav-link" href="cliente.html"> <b> cliente</b> </a>
+      <a class="nav-link" href="sobre-mim.html"> <b> Sobre Mim </b> </a>
+      <a class="nav-link" href="fale-conosco.html"> <b> Fale Conosco </b> </a>
+      <a class="nav-link" href="trabalhe-conosco.html"> <b>Trabalhe Conosco</b> </a>
+      <
+            </nav>
+          </div>
+
+          <div class="col-10">
+            <div class="collapse" id="menuMobile">
+              <nav class="nav flex-column align-items-start justify-content-start">
+                <a class="nav-link" href="produtos.html"> <b> Produtos </b> </a>
+      <a class="nav-link" href="cliente.html"> <b> cliente</b> </a>
+      <a class="nav-link" href="sobre-mim.html"> <b> Sobre Mim </b> </a>
+      <a class="nav-link" href="fale-conosco.html"> <b> Fale Conosco </b> </a>
+      <a class="nav-link" href="trabalhe-conosco.html"> <b>Trabalhe Conosco</b> </a>
+      
+              </nav>                 
+            </div>
+
+  </header>
+  <!-- Header -->
+  <!--Separador-->
+  <hr class="rounded">
+
+  <main>
+    <!--Slides-->
+    <div class="sliders flex-column">
+      <div id="carouseIndicators" class="carousel slide" id="meuCarrossel" data-ride="carousel">
+
+        <!--Indicators-->
+        <ol class="carousel-indicators ">
+          <li data-bs-target="#carouseIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouseIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouseIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <!--Indicators-->
+
+        <!--Imagens-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-75" src="image\Perfumes.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-75" src="image\Maquiagem.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-75" src="image\E-Muito-Mais.jpg" alt="Third slide">
+          </div>
+        </div>
+        <!--Imagens-->
+
+        <!--Botão dos Slides-->
+        <div class="carousel-icons">
+          <a class="carousel-control-prev" href="#carouseIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouseIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+        <!--Botão do Carrosel-->
+
+      </div>
+    </div>
+    <!--Slides-->
+
+    <!--Grid Categoria-->
+    <div class="container" id="grid-main">
+
+      <!--Separador-->
+      <hr class="rounded">
+      <div>
+        <h3 style="text-align: center; background-color: rgb(221, 221, 221); padding: 5px;"> ALGUNS PRODUTOS </h3>
+      </div>
+
+      <!--Linha 1-->
+      <div id="line" class="row" style="margin-top: 25px">
+
+        <!--Coluna 1-->
+        <div class="col">
+          <div class="container" id="img-hover">
+            <img src="image/ima.11.jpg" alt="Avatar" class="image" id="img-rimel">
+            <div class="overlay" id="over">
+              <div class="text"> Kit Promocional</div>
+            </div>
+          </div>
+        </div>
+        <!--Coluna 1-->
+
+        <!--Coluna 2-->
+        <div class="col">
+          <div class="container" id="img-hover">
+            <img src="image/ima.10.jpg" alt="Avatar" class="image" id="img-rimel">
+            <div class="overlay" id="over">
+              <div class="text">Ácido</div>
+            </div>
+          </div>
+          <!--Coluna 2-->
+        </div>
+        <!--Linha 1-->
+
+        <!--Separador-->
+        <hr class="rounded">
+
+        <!--Linha 2-->
+        <div id="line" class="row" style="margin-top: 25px">
+
+          <!--Coluna 1-->
+          <div class="col">
+            <div class="container" id="img-hover">
+              <img src="image/ima.9.jpg" alt="Avatar" class="image" id="img-rimel">
+              <div class="overlay" id="over">
+                <div class="text">Prime</div>
+              </div>
+            </div>
+          </div>
+          <!--Coluna 1-->
+
+          <!--Coluna 2-->
+          <div class="col">
+            <div class="container" id="img-hover">
+              <img src="image/ima.8.jpg" alt="Avatar" class="image" id="img-rimel">
+              <div class="overlay" id="over">
+                <div class="text">Sabonete</div>
+              </div>
+            </div>
+          </div>
+          <!--Coluna 2-->
+
+        </div>
+        <!--Line 2-->
+
+      </div>
+    </div>
+    <!--Slides-->
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+
+      <div>
+        <p>&emsp;</p>
+      </div>
+      <!-- Right -->
+      <div class="icons">
+        <a href="https://www.instagram.com/sancrisan/">
+          <img src="image\instagram.png" alt="insta-icon" style="margin-right: 25px;">
+        </a>
+        <a href="https://www.linkedin.com/in/sandra-cristina-939555277">
+          <img src="image\linkedin.png" alt="linkedin-icon">
+        </a>
+        &emsp;
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="nav-link col-md-1 col-xl-3 mx-auto col-7" style="align-items: center;" >
+            <!-- Content -->
+            <h5 class="text-uppercase fw-bold mb-4">
+              <b> Sobre a Crys&Make </b>
+            </h5>
+            <p>
+              <p> Empresa com mais de 15 anos de experiência em estudo de tons de pele, com conceito renovador,
+                aplicando todos os cuidados possíveis, permitindo criar looks de maquiagem impecáveis e duradouros. 
+                Acreditamos que a maquiagem é uma ferramenta poderosa que aumenta a alto estima e confiança no mundo
+                feminino. </p>
+
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h5 class="text-uppercase fw-bold mb-4">
+              Páginas
+            </h5>
+            <p> <a class="nav-link" href="produtos.html"> Produtos </a> </p>
+            <a class="nav-link" href="cliente.html"> <b> cliente</a> </a>
+            <p> <a class="nav-link" href="sobre-mim.html"> Sobre Mim </a> </p>
+            <p> <a class="nav-link" href="fale-conosco.html"> Fale Conosco </a> </p>
+            <p> <a class="nav-link" href="trabalhe-conosco.html"> Trabalhe Conosco </a> </p>
+          </div>
+          <!-- Grid column -->
+
+
+                           <!-- Grid column -->
+                           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h5 class="text-uppercase fw-bold mb-4">Contato</h5>
+                            <p> Salvador/BA</p>
+                            <p> san@gmail.com </p>
+                            <p> Telefone:71986642572</p>
+                            
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+  </footer>
+  <!-- Footer -->
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js_projeto\script.js"></script>
+
+</body>
+
+</html>

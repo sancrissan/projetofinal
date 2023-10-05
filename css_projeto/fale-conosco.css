@@ -1,0 +1,48 @@
+.form-group {
+    padding: 5%;
+    border: 5px;
+}
+
+h1 {
+    padding-left: 6.5%;
+}
+
+#estado {
+    margin-left: 5px;
+}
+
+#button ul {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    margin: 50px;
+}
+
+#google-api-map {
+    text-align: center;
+    margin: 50px;
+}
+
+h3 {
+    padding-left: 6.5%;
+}
+
+button, a {
+    float: right;
+}
+
+span {
+    color: red;
+}
+
+iframe {
+    max-width: 100%;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    border-right-width: 50px;
+    padding-right: 50px;
+}

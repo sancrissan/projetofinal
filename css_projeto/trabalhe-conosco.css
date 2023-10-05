@@ -1,0 +1,17 @@
+.form-group {
+    padding: 5%;
+    border: 5px;
+}
+
+h1 {
+    padding-left: 6.5%;
+}
+
+form {
+    margin: 50px;
+}
+
+button, a {
+    float: right;
+    
+}
